@@ -5,6 +5,11 @@
   "engines": {
     "node": ">=22.12.0"
   },
+  "imports": {
+    "#components/*": "./src/components/*",
+    "#layouts/*": "./src/layouts/*",
+    "#public/*": "./public/*"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
